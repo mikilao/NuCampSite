@@ -14,12 +14,12 @@ header h2 {
   color: #CEC8FF; }
 
 footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient #CEC8FF, white;
   padding: 20px 0; }
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
   color: white; }
 
 .row-content {
@@ -34,7 +34,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637DD; }
+  border: solid #901CAD; }
 
 #carouselButton {
   position: absolute;

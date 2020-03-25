@@ -16,22 +16,22 @@ h1, h2, h3 {
     margin: 0;
 }
 h2 {
-    color: #3046C5;
+    color:$color-primary;
 }
 
 header{
      h2 {
-    color: #CEC8FF;
+    color: $color-pale;
   }
 }
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient ($color-pale, white);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right,$color-secondary, $color-primary, $color-dark);
     color: white;
 }
 
@@ -41,14 +41,14 @@ footer {
     min-height: 200px;
 }
 .navbar {
-    background-color: #901CAD;
+    background-color: $color-mid;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid $color-mid;
 }
 
 #carouselButton {
