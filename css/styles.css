@@ -40,3 +40,10 @@ footer {
   position: absolute;
   right: 0px;
   bottom: 0; }
+
+#reserveModal .modal-header {
+  background-color: #17a2B8; }
+
+#loginModal .modal-header {
+  color: white;
+  background-color: #901CAD; }

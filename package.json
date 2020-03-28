@@ -26,7 +26,8 @@
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.1",
     "rimraf": "^2.6.2",
-    "usemin-cli": "^0.6.0"
+    "usemin-cli": "^0.6.0",
+    "start:build": "lite-server --baseDir='dist'"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
